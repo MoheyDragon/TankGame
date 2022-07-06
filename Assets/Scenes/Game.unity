@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fb765d1a9936d8489f9cae8d41c727e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TankPrefab: {fileID: 3608026036834623040, guid: 886d0b2c0655f02489d976b271c40b9e,
+  tankView: {fileID: 4561402364630668678, guid: 886d0b2c0655f02489d976b271c40b9e,
     type: 3}
 --- !u!4 &1136254293
 Transform:
