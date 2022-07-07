@@ -8,13 +8,9 @@ public class TankSpawner : MonoBehaviour
     public List<Tank> tankList;
     [Header("Enter index of the Tank You want to spawn")]
     public int SpawnedTankIndex;
-    void Start()
+    public void CreatTank(int tankID)
     {
-        CreatTank();
-    }
-    private void CreatTank()
-    {
-        TankModel tankModel = new TankModel(tankList[SpawnedTankIndex]);
+        TankModel tankModel = new TankModel(tankList[tankID]);
         TankController tankController = new TankController(tankModel, tankView);
     }
 }
