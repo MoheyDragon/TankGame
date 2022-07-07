@@ -4,11 +4,15 @@ public class TankModel : MonoBehaviour
 {
     private TankController tankController;
     public float moveSpeed, rotateSpeed;
+    public TankType tankType;
+    public Material color;
 
-    public TankModel(float moveSpeed, float rotateSpeed)
+    public TankModel(Tank tank)
     {
-        this.moveSpeed = moveSpeed;
-        this.rotateSpeed = rotateSpeed;
+        this.moveSpeed = tank.MovementSpeed;
+        this.rotateSpeed = tank.RotationSpeed;
+        this.tankType = tank.tankType;
+        this.color = tank.color;
     }
 
     public void SetTankController(TankController _tankController)

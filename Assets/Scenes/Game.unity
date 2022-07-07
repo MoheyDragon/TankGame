@@ -154,6 +154,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tankView: {fileID: 4561402364630668678, guid: 886d0b2c0655f02489d976b271c40b9e,
     type: 3}
+  tankList:
+  - MovementSpeed: 10
+    RotationSpeed: 100
+    tankType: 1
+    color: {fileID: 2100000, guid: c39933e60e73205419d1f79a2af1fdac, type: 2}
+  - MovementSpeed: 30
+    RotationSpeed: 300
+    tankType: 0
+    color: {fileID: 2100000, guid: 463052f3f7389124f9e7b34b0b931d0d, type: 2}
+  - MovementSpeed: 2
+    RotationSpeed: 50
+    tankType: 2
+    color: {fileID: 2100000, guid: ff21ff0ea9b18924bb1fdfbb0e58f5cb, type: 2}
+  SpawnedTankIndex: 1
 --- !u!4 &1136254293
 Transform:
   m_ObjectHideFlags: 0

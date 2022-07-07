@@ -47,9 +47,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12e5bf680ca3c3d489942266753d518a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  meshs:
+  - {fileID: 3608026036832420144}
+  - {fileID: 3608026036832420150}
+  - {fileID: 3608026036832420152}
+  - {fileID: 3608026036832420146}
   rb: {fileID: 6211368471973977617}
-  moveSpeed: 10
-  RotateSpeed: 50
 --- !u!54 &6211368471973977617
 Rigidbody:
   m_ObjectHideFlags: 0
